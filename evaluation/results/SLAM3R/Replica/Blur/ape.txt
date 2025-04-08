@@ -1,0 +1,31 @@
+--------------------------------------------------------------------------------
+Loaded 2000 poses from: evaluation/slam_output/gt/CamTraj/Replica/traj_processed.txt
+Loaded 2000 poses from: evaluation/slam_output/SLAM3R/Replica/Blur/cam_poses_processed.txt
+--------------------------------------------------------------------------------
+Aligning using Umeyama's method... (with scale correction)
+Rotation of alignment:
+[[-0.31297408 -0.13552405  0.94004279]
+ [ 0.94969121 -0.03259998  0.31148652]
+ [-0.01156854  0.99023758  0.13890895]]
+Translation of alignment:
+[3.62904401 0.92087562 0.15646288]
+Scale correction: 3.616352337373147
+--------------------------------------------------------------------------------
+Compared 2000 absolute pose pairs.
+Calculating APE for translation part pose relation...
+--------------------------------------------------------------------------------
+APE w.r.t. translation part (m)
+(with Sim(3) Umeyama alignment)
+
+       max	0.139026
+      mean	0.038443
+    median	0.035884
+       min	0.000710
+      rmse	0.043020
+       sse	3.701473
+       std	0.019310
+
+--------------------------------------------------------------------------------
+Plotting results... 
+Plot saved to evaluation/results/SLAM3R/Replica/Blur/ape_raw.png
+Plot saved to evaluation/results/SLAM3R/Replica/Blur/ape_map.png
