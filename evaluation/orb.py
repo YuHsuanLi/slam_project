@@ -2,7 +2,7 @@ import os
 import sys 
 import subprocess
 
-dataset = "replica"
+dataset = "kitti"
 if dataset == "kitti":
     folder_path = "evaluation/slam_output/ORB-SLAM/Kitti00"
     gt_path = "evaluation/slam_output/gt/CamTraj/Kitti/dataset/poses/00.txt"
@@ -25,7 +25,9 @@ if not os.path.isdir(folder_path):
 # List subfolders
 subfolders = [os.path.join(folder_path, name) for name in os.listdir(folder_path)
               if os.path.isdir(os.path.join(folder_path, name))]
-
+# print(subfolders)
+# # exit(0)
+# subfolders = ["evaluation/slam_output/ORB-SLAM/Kitti00/Control"]
 with open(gt_path, "r") as f:
     lines = f.readlines()
     target_lines = len(lines)
