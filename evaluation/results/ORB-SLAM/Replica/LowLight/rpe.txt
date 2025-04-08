@@ -1,0 +1,33 @@
+--------------------------------------------------------------------------------
+Loaded 2000 poses from: evaluation/slam_output/gt/CamTraj/Replica/traj_processed.txt
+Loaded 2000 poses from: evaluation/slam_output/ORB-SLAM/Replica/LowLight/CameraTrajectoryEuroc.kitti
+--------------------------------------------------------------------------------
+Aligning using Umeyama's method... (with scale correction)
+Rotation of alignment:
+[[-3.20367761e-01  4.48187547e-01 -8.34561214e-01]
+ [ 9.47293029e-01  1.50975406e-01 -2.82563875e-01]
+ [-6.43391811e-04 -8.81098377e-01 -4.72932592e-01]]
+Translation of alignment:
+[3.45197149 0.45688206 0.59594425]
+Scale correction: 2.585337081592844
+--------------------------------------------------------------------------------
+Found 1999 pairs with delta 1 (frames) among 2000 poses using consecutive pairs.
+Compared 1999 relative pose pairs, delta = 1 (frames) with consecutive pairs.
+Calculating RPE for translation part pose relation...
+--------------------------------------------------------------------------------
+RPE w.r.t. translation part (m)
+for delta = 1 (frames) using consecutive pairs
+(with Sim(3) Umeyama alignment)
+
+       max	0.016051
+      mean	0.002133
+    median	0.001833
+       min	0.000143
+      rmse	0.002558
+       sse	0.013076
+       std	0.001412
+
+--------------------------------------------------------------------------------
+Plotting results... 
+Plot saved to evaluation/results/ORB-SLAM/Replica/LowLight/rpe_raw.png
+Plot saved to evaluation/results/ORB-SLAM/Replica/LowLight/rpe_map.png
