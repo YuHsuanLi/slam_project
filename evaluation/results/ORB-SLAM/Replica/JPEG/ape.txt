@@ -1,0 +1,31 @@
+--------------------------------------------------------------------------------
+Loaded 2000 poses from: evaluation/slam_output/gt/CamTraj/Replica/traj_processed.txt
+Loaded 2000 poses from: evaluation/slam_output/ORB-SLAM/Replica/JPEG/CameraTrajectoryEuroc.kitti
+--------------------------------------------------------------------------------
+Aligning using Umeyama's method... (with scale correction)
+Rotation of alignment:
+[[-0.32035722  0.44902174 -0.83411674]
+ [ 0.94729631  0.15275281 -0.28159594]
+ [ 0.00097098 -0.880367   -0.4742921 ]]
+Translation of alignment:
+[3.45082758 0.45673497 0.59569514]
+Scale correction: 2.371474198086998
+--------------------------------------------------------------------------------
+Compared 2000 absolute pose pairs.
+Calculating APE for translation part pose relation...
+--------------------------------------------------------------------------------
+APE w.r.t. translation part (m)
+(with Sim(3) Umeyama alignment)
+
+       max	0.075533
+      mean	0.003882
+    median	0.003444
+       min	0.000068
+      rmse	0.004949
+       sse	0.048984
+       std	0.003070
+
+--------------------------------------------------------------------------------
+Plotting results... 
+Plot saved to evaluation/results/ORB-SLAM/Replica/JPEG/ape_raw.png
+Plot saved to evaluation/results/ORB-SLAM/Replica/JPEG/ape_map.png

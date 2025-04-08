@@ -1,0 +1,33 @@
+--------------------------------------------------------------------------------
+Loaded 4540 poses from: evaluation/slam_output/gt/CamTraj/Kitti/dataset/poses/00.txt
+Loaded 4540 poses from: evaluation/slam_output/ORB-SLAM/Kitti00/Control/CameraTrajectoryEuroc.kitti
+--------------------------------------------------------------------------------
+Aligning using Umeyama's method... (with scale correction)
+Rotation of alignment:
+[[ 0.99995765  0.00867985 -0.00305812]
+ [-0.00873241  0.99980672 -0.01761442]
+ [ 0.00290464  0.01764038  0.99984018]]
+Translation of alignment:
+[10.19637705 -0.38330806 12.434939  ]
+Scale correction: 15.899381543895744
+--------------------------------------------------------------------------------
+Found 4539 pairs with delta 1 (frames) among 4540 poses using consecutive pairs.
+Compared 4539 relative pose pairs, delta = 1 (frames) with consecutive pairs.
+Calculating RPE for translation part pose relation...
+--------------------------------------------------------------------------------
+RPE w.r.t. translation part (m)
+for delta = 1 (frames) using consecutive pairs
+(with Sim(3) Umeyama alignment)
+
+       max	67.178885
+      mean	0.296198
+    median	0.146877
+       min	0.001980
+      rmse	1.759842
+       sse	14057.478476
+       std	1.734736
+
+--------------------------------------------------------------------------------
+Plotting results... 
+Plot saved to evaluation/results/ORB-SLAM/Kitti/00/Control/rpe_raw.png
+Plot saved to evaluation/results/ORB-SLAM/Kitti/00/Control/rpe_map.png

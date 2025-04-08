@@ -1,0 +1,31 @@
+--------------------------------------------------------------------------------
+Loaded 4540 poses from: evaluation/slam_output/gt/CamTraj/Kitti/dataset/poses/00.txt
+Loaded 4540 poses from: evaluation/slam_output/ORB-SLAM/Kitti00/JPEG/CameraTrajectoryEuroc.kitti
+--------------------------------------------------------------------------------
+Aligning using Umeyama's method... (with scale correction)
+Rotation of alignment:
+[[ 9.99813614e-01  8.81613583e-04  1.92862887e-02]
+ [-5.16718922e-04  9.99820930e-01 -1.89167084e-02]
+ [-1.92995123e-02  1.89032170e-02  9.99635032e-01]]
+Translation of alignment:
+[1.72564671 0.04436299 5.25691197]
+Scale correction: 18.94554707967656
+--------------------------------------------------------------------------------
+Compared 4540 absolute pose pairs.
+Calculating APE for translation part pose relation...
+--------------------------------------------------------------------------------
+APE w.r.t. translation part (m)
+(with Sim(3) Umeyama alignment)
+
+       max	15.717424
+      mean	6.800198
+    median	5.739572
+       min	0.979483
+      rmse	7.708080
+       sse	269741.788180
+       std	3.629298
+
+--------------------------------------------------------------------------------
+Plotting results... 
+Plot saved to evaluation/results/ORB-SLAM/Kitti/00/JPEG/ape_raw.png
+Plot saved to evaluation/results/ORB-SLAM/Kitti/00/JPEG/ape_map.png

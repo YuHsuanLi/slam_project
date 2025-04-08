@@ -2,7 +2,7 @@ import os
 import sys 
 import subprocess
 
-dataset = "kitti"
+dataset = "replica"
 if dataset == "kitti":
     folder_path = "evaluation/slam_output/ORB-SLAM/Kitti00"
     gt_path = "evaluation/slam_output/gt/CamTraj/Kitti/dataset/poses/00.txt"
@@ -38,18 +38,18 @@ for subfolder in subfolders:
         diff = target_lines - len(lines)
         padded_lines = [lines[0]] * diff + lines
         f_out.writelines(padded_lines)
-exit(0)
+
 
 # Loop through subfolders
-# for subfolder in subfolders:
-#     tum_file_path = os.path.join(subfolder, prepend_file_name)
-#     cmd = f"evo_traj tum {tum_file_path} --save_as_kitti"
-#     result = subprocess.run(cmd, shell=True, capture_output=True, text=True)
-#     cmd = f"mv CameraTrajectoryEuroc_prepend.kitti CameraTrajectoryEuroc.kitti"
-#     result = subprocess.run(cmd, shell=True, capture_output=True, text=True)
+for subfolder in subfolders:
+    tum_file_path = os.path.join(subfolder, prepend_file_name)
+    cmd = f"evo_traj tum {tum_file_path} --save_as_kitti"
+    result = subprocess.run(cmd, shell=True, capture_output=True, text=True)
+    cmd = f"mv CameraTrajectoryEuroc_prepend.kitti CameraTrajectoryEuroc.kitti"
+    result = subprocess.run(cmd, shell=True, capture_output=True, text=True)
 
-#     cmd = f"mv {kitti_name} {subfolder}"
-#     result = subprocess.run(cmd, shell=True, capture_output=True, text=True)
+    cmd = f"mv {kitti_name} {subfolder}"
+    result = subprocess.run(cmd, shell=True, capture_output=True, text=True)
 
 
 for subfolder in subfolders:
