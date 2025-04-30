@@ -47,10 +47,10 @@ def apply_transform(image, transform, severity, rain_size, rain_speed):
 
 # -
 
-cap = cv2.VideoCapture(r"C:\Files\CMU\Courses\SLAM\Replica\room0\image_0\%06d.png")
-ret = True
+# cap = cv2.VideoCapture(r"/home/yujing/code/SLAM/slam_project/SLAM3R/Replica_demo/room0/image_0/%06d.png")
+# ret = True
 
-img_path = r"C:\Files\CMU\Courses\SLAM\Replica\room0_{0}\image_0\{1}.png"
+img_path = r"/home/yujing/code/SLAM/slam_project/SLAM3R/data/Replica_demo/room0_{0}/{1}.png"
 
 augmentations = [
 #     'fog', 
@@ -66,12 +66,13 @@ augmentations = [
     "grayscale",
 ]
 for augmentation in augmentations:
-    os.makedirs(r"C:\Files\CMU\Courses\SLAM\Replica\room0_{0}\image_0".format(augmentation), exist_ok=True)
-    shutil.copy(r"C:\Files\CMU\Courses\SLAM\Replica\room0\times.txt", r"C:\Files\CMU\Courses\SLAM\Replica\room0_{0}\times.txt".format(augmentation))
+    os.makedirs(r"/home/yujing/code/SLAM/slam_project/SLAM3R/data/Replica_demo/room0_{0}".format(augmentation), exist_ok=True)
+    # shutil.copy(r"/home/yujing/code/SLAM/slam_project/SLAM3R/Replica_demo\room0\times.txt", r"C:\Files\CMU\Courses\SLAM\Replica\room0_{0}\times.txt".format(augmentation))
 
 frame_id = 0
-while ret:
-    ret, frame = cap.read()
+root = r"/home/yujing/code/SLAM/slam_project/SLAM3R/data/Replica_demo/room0"
+for frame_id in range(len(os.listdir(root))):
+    frame = cv2.imread(r"/home/yujing/code/SLAM/slam_project/SLAM3R/data/Replica_demo/room0/frame{0}.jpg".format(str(frame_id).zfill(6)))
     for augmentation in augmentations:
         augmented = apply_transform(frame, severity=1, 
                         transform=augmentation,
