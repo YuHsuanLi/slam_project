@@ -1,0 +1,2 @@
+python main.py --dataset "/home/yujing/code/SLAM/SLAM3R/data/Kitti/00/image_2" --config config/base.yaml --calib config/intrinsics_kitti.yaml
+python main.py --dataset "/home/yujing/code/SLAM/SLAM3R/data/Replica_demo/room0" --config config/base.yaml --calib config/intrinsics_replica.yaml --no-viz
