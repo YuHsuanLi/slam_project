@@ -119,7 +119,13 @@ evo_ape kitti  /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/slam_ou
 
 evo_rpe kitti  /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/slam_output/gt/CamTraj/Kitti/dataset/poses/00.txt /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/traj_kitti00_ori.txt -va  --plot_mode xz --save_plot lviorf_kitti00_rpe_ori.png --align --correct_scale
 
-
+    #    max      10.010905
+    #   mean      1.161441
+    # median      1.202088
+    #    min      0.004860
+    #   rmse      1.230375
+    #    sse      6871.244284
+    #    std      0.406051
 evo_ape kitti  /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/slam_output/gt/CamTraj/Kitti/dataset/poses/00.txt /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/traj_kitti00_black.txt -va  --plot_mode xz --save_plot lviorf_kitti00_ape_black.png --align --correct_scale
     #    max      10.536818
     #   mean      2.934048
@@ -128,6 +134,16 @@ evo_ape kitti  /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/slam_ou
     #   rmse      3.451168
     #    sse      54073.930973
     #    std      1.817118
+
+evo_rpe kitti  /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/slam_output/gt/CamTraj/Kitti/dataset/poses/00.txt /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/traj_kitti00_black.txt -va  --plot_mode xz --save_plot lviorf_kitti00_rpe_black.png --align --correct_scale
+
+    #    max      8.329950
+    #   mean      1.161004
+    # median      1.201306
+    #    min      0.004857
+    #   rmse      1.228390
+    #    sse      6849.092923
+    #    std      0.401264
 evo_ape kitti  /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/slam_output/gt/CamTraj/Kitti/dataset/poses/00.txt /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/final_report/kitti_mast3r.txt -va  --plot_mode xz --save_plot kitti_mast3r.png --align --correct_scale
     #    max      339.941998
     #   mean      168.803801
@@ -191,3 +207,43 @@ evo_ape kitti  /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/slam_ou
     #   rmse      189.177670
     #    sse      162478385.963584
     #    std      83.478546
+
+evo_ape kitti  /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/slam_output/gt/CamTraj/Kitti/dataset/poses/00.txt /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/traj_kitti00_lidar_000.txt -va  --plot_mode xz --save_plot lviorf_kitti00_ape_lidar_8hz.png --align --correct_scale
+# 8hz
+    #    max      254.276209
+    #   mean      69.599800
+    # median      56.906273
+    #    min      3.150012
+    #   rmse      85.455099
+    #    sse      33153685.896017
+    #    std      49.582677
+evo_rpe kitti  /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/slam_output/gt/CamTraj/Kitti/dataset/poses/00.txt /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/traj_kitti00_lidar_000.txt -va  --plot_mode xz --save_plot lviorf_kitti00_rpe_lidar_8hz.png --align --correct_scale
+# 8hz
+    #    max      8.582864
+    #   mean      1.103325
+    # median      1.110685
+    #    min      0.238959
+    #   rmse      1.137365
+    #    sse      5871.651518
+    #    std      0.276177
+
+evo_ape kitti  /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/slam_output/gt/CamTraj/Kitti/dataset/poses/00.txt /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/traj_kitti00_lidar_0000.txt -va  --plot_mode xz --save_plot lviorf_kitti00_ape_lidar_3hz.png --align --correct_scale
+# 3hz
+    #    max      342.945179
+    #   mean      167.233369
+    # median      168.558990
+    #    min      17.253980
+    #   rmse      189.193086
+    #    sse      162504868.530287
+    #    std      88.470472
+
+
+evo_rpe kitti  /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/slam_output/gt/CamTraj/Kitti/dataset/poses/00.txt /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/traj_kitti00_lidar_0000.txt -va  --plot_mode xz --save_plot lviorf_kitti00_rpe_lidar_3hz.png --align --correct_scale
+# 3hz
+    #    max      3.694605
+    #   mean      0.956963
+    # median      0.962667
+    #    min      0.068026
+    #   rmse      1.006977
+    #    sse      4602.559966
+    #    std      0.313408

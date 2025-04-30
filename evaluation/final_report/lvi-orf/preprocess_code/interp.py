@@ -23,8 +23,8 @@ def interpolate_to_target_length(df, target_length):
     return interpolated
 
 def main():
-    input_path = '/Users/yuhsuanli/Desktop/projects/slam_project/evaluation/kitti00_odometry_lidar.csv'  # TODO: 換成你的csv路徑
-    output_path = '/Users/yuhsuanli/Desktop/projects/slam_project/evaluation/kitti00_odometry_lidar_interp.csv'
+    input_path = '/Users/yuhsuanli/Desktop/projects/slam_project/evaluation/kitti00_odometry_lidar0000.csv'  # TODO: 換成你的csv路徑
+    output_path = '/Users/yuhsuanli/Desktop/projects/slam_project/evaluation/kitti00_odometry_lidar_interp0000.csv'
 
     # 讀取csv
     df = pd.read_csv(input_path)
