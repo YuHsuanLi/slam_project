@@ -1,0 +1,5 @@
+<launch>
+  <node pkg="add_noise" type="src/imu_noise_adder.py" name="imu_noise_adder" output="screen"/>
+  <node pkg="add_noise" type="src/image_noise_adder.py" name="image_noise_adder" output="screen"/>
+  <node pkg="add_noise" type="src/lidar_noise_adder.py" name="lidar_noise_adder" output="screen"/>
+</launch>
