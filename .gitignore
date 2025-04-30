@@ -6,6 +6,7 @@ recon
 visualization
 replica_gt
 tmp
+unuse
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -136,3 +137,5 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+.DS_Store
