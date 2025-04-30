@@ -1,0 +1,33 @@
+--------------------------------------------------------------------------------
+Loaded 2000 poses from: /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/slam_output/gt/CamTraj/Replica/traj_processed.txt
+Loaded 2000 poses from: /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/slam_output/MASt3R_replica_aug/kitti_format/room0_lowlight_.txt
+--------------------------------------------------------------------------------
+Aligning using Umeyama's method... (with scale correction)
+Rotation of alignment:
+[[-0.32003839  0.44503343 -0.83637353]
+ [ 0.94739735  0.15377986 -0.28069558]
+ [ 0.00369849 -0.88221143 -0.47083895]]
+Translation of alignment:
+[3.4485504  0.46371404 0.59565116]
+Scale correction: 1.136784350117533
+--------------------------------------------------------------------------------
+Found 1999 pairs with delta 1 (frames) among 2000 poses using consecutive pairs.
+Compared 1999 relative pose pairs, delta = 1 (frames) with consecutive pairs.
+Calculating RPE for translation part pose relation...
+--------------------------------------------------------------------------------
+RPE w.r.t. translation part (m)
+for delta = 1 (frames) using consecutive pairs
+(with Sim(3) Umeyama alignment)
+
+       max	0.038755
+      mean	0.002009
+    median	0.001581
+       min	0.000072
+      rmse	0.002790
+       sse	0.015562
+       std	0.001936
+
+--------------------------------------------------------------------------------
+Plotting results... 
+Plot saved to /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/results/MASt3R_replica/room0_lowlight__raw.png
+Plot saved to /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/results/MASt3R_replica/room0_lowlight__map.png

@@ -1,0 +1,31 @@
+--------------------------------------------------------------------------------
+Loaded 2000 poses from: /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/slam_output/gt/CamTraj/Replica/traj_processed.txt
+Loaded 2000 poses from: /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/slam_output/MASt3R_replica_aug/kitti_format/room0_contrast_.txt
+--------------------------------------------------------------------------------
+Aligning using Umeyama's method... (with scale correction)
+Rotation of alignment:
+[[-0.31950682  0.44529108 -0.83643963]
+ [ 0.94757444  0.15410255 -0.2799198 ]
+ [ 0.00425169 -0.88202509 -0.47118326]]
+Translation of alignment:
+[3.448868   0.46286563 0.59525361]
+Scale correction: 1.1347108690320118
+--------------------------------------------------------------------------------
+Compared 2000 absolute pose pairs.
+Calculating APE for translation part pose relation...
+--------------------------------------------------------------------------------
+APE w.r.t. translation part (m)
+(with Sim(3) Umeyama alignment)
+
+       max	0.032777
+      mean	0.012376
+    median	0.011009
+       min	0.001202
+      rmse	0.013768
+       sse	0.379134
+       std	0.006034
+
+--------------------------------------------------------------------------------
+Plotting results... 
+Plot saved to /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/results/MASt3R_replica/room0_contrast__raw.png
+Plot saved to /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/results/MASt3R_replica/room0_contrast__map.png
