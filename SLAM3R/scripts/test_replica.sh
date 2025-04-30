@@ -41,5 +41,5 @@ python recon.py \
 --max_num_register $MAX_NUM_REGISTER \
 --save_all_views
 
-# python visualize.py --vis_cam --vis_dir "results/${TEST_NAME}"
+python visualize.py --vis_cam --vis_dir "results/${TEST_NAME}"
 

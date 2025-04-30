@@ -8,6 +8,14 @@ TL;DR: A real-time RGB SLAM system that performs dense 3D reconstruction via poi
 This repo has been slightly edited from the base SLAM3R repo https://github.com/PKU-VCL-3DV/SLAM3R
 to obtain the camera extrinsics. In particular, visualize.py was edited to write to write cam_poses.txt.
 
+Place the data in data/Replica_demo/room0 and data/Kitti/00/image_2 respectively. 
+
+Run 
+```
+bash scripts/test_replica.sh
+bash scripts/test_KITTI.sh
+```
+
 <p align="center">
   <h2 align="center">[CVPR 2025 Highlight] SLAM3R: Real-Time Dense Scene Reconstruction from Monocular RGB Videos</h2>
  <p align="center">

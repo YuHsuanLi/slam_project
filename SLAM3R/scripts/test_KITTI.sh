@@ -43,3 +43,4 @@ python recon.py \
 # --save_preds \
 # --save_dir "results" \
 
+python visualize.py --vis_cam --vis_dir "results/${TEST_NAME}"
