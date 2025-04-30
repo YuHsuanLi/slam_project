@@ -106,3 +106,144 @@ evo_rpe kitti  evaluation/slam_output/gt/CamTraj/Replica/traj_processed.txt eval
 #       rmse      0.009252
 #        sse      0.171119
 #        std      0.005947
+
+evo_ape kitti  /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/slam_output/gt/CamTraj/Kitti/dataset/poses/05.txt /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/traj_kitti.txt -va  --plot_mode xz --save_plot lviorf_kitti_ape.png --align --correct_scale
+evo_ape kitti  /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/slam_output/gt/CamTraj/Kitti/dataset/poses/00.txt /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/traj_kitti00_ori.txt -va  --plot_mode xz --save_plot lviorf_kitti00_ape_ori.png --align --correct_scale
+    #    max      11.640139
+    #   mean      3.106679
+    # median      2.651872
+    #    min      0.841386
+    #   rmse      3.728412
+    #    sse      63110.809309
+    #    std      2.061456
+
+evo_rpe kitti  /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/slam_output/gt/CamTraj/Kitti/dataset/poses/00.txt /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/traj_kitti00_ori.txt -va  --plot_mode xz --save_plot lviorf_kitti00_rpe_ori.png --align --correct_scale
+
+    #    max      10.010905
+    #   mean      1.161441
+    # median      1.202088
+    #    min      0.004860
+    #   rmse      1.230375
+    #    sse      6871.244284
+    #    std      0.406051
+evo_ape kitti  /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/slam_output/gt/CamTraj/Kitti/dataset/poses/00.txt /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/traj_kitti00_black.txt -va  --plot_mode xz --save_plot lviorf_kitti00_ape_black.png --align --correct_scale
+    #    max      10.536818
+    #   mean      2.934048
+    # median      2.561094
+    #    min      0.834192
+    #   rmse      3.451168
+    #    sse      54073.930973
+    #    std      1.817118
+
+evo_rpe kitti  /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/slam_output/gt/CamTraj/Kitti/dataset/poses/00.txt /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/traj_kitti00_black.txt -va  --plot_mode xz --save_plot lviorf_kitti00_rpe_black.png --align --correct_scale
+
+    #    max      8.329950
+    #   mean      1.161004
+    # median      1.201306
+    #    min      0.004857
+    #   rmse      1.228390
+    #    sse      6849.092923
+    #    std      0.401264
+evo_ape kitti  /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/slam_output/gt/CamTraj/Kitti/dataset/poses/00.txt /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/final_report/kitti_mast3r.txt -va  --plot_mode xz --save_plot kitti_mast3r.png --align --correct_scale
+    #    max      339.941998
+    #   mean      168.803801
+    # median      167.188815
+    #    min      5.281538
+    #   rmse      190.850247
+    #    sse      165364128.581690
+    #    std      89.045458
+evo_rpe kitti  /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/slam_output/gt/CamTraj/Kitti/dataset/poses/00.txt /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/final_report/kitti_mast3r.txt -va  --plot_mode xz --save_plot kitti_mast3r_rpe.png --align --correct_scale
+    #    max      107.279719
+    #   mean      0.877368
+    # median      0.869680
+    #    min      0.001850
+    #   rmse      1.832924
+    #    sse      15249.267546
+    #    std      1.609297
+
+evo_ape kitti  /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/slam_output/gt/CamTraj/Kitti/dataset/poses/00.txt /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/final_report/kitti_orbslam3.txt -va  --plot_mode xz --save_plot kitti_orbslam3_ape.png --align --correct_scale
+    #    max      1.963896
+    #   mean      0.777931
+    # median      0.761275
+    #    min      0.043690
+    #   rmse      0.856029
+    #    sse      3326.846428
+    #    std      0.357224
+evo_rpe kitti  /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/slam_output/gt/CamTraj/Kitti/dataset/poses/00.txt /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/final_report/kitti_orbslam3.txt -va  --plot_mode xz --save_plot kitti_orbslam3_rpe.png --align --correct_scale
+    #  max      0.299969
+    #   mean      0.018686
+    # median      0.014566
+    #    min      0.000592
+    #   rmse      0.027105
+    #    sse      3.334735
+    #    std      0.019635
+evo_ape kitti  /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/slam_output/gt/CamTraj/Replica/traj_processed.txt /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/final_report/replica_mast3r.txt -va  --plot_mode xz --save_plot slam3r_replica_ape.png --align --correct_scale
+    #    max      0.033678
+    #   mean      0.012770
+    # median      0.012079
+    #    min      0.000150
+    #   rmse      0.013988
+    #    sse      0.391343
+    #    std      0.005710
+
+evo_rpe kitti  /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/slam_output/gt/CamTraj/Replica/traj_processed.txt /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/final_report/replica_mast3r.txt -va  --plot_mode xz --save_plot slam3r_replica_rpe.png --align --correct_scale
+    #    max      0.029502
+    #   mean      0.001919
+    # median      0.001550
+    #    min      0.000098
+    #   rmse      0.002509
+    #    sse      0.012581
+    #    std      0.001615
+
+evo_ape kitti  /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/slam_output/gt/CamTraj/Kitti/dataset/poses/00.txt /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/traj_kitti00_imu.txt -va  --plot_mode xz --save_plot lviorf_kitti00_ape_imu.png --align --correct_scale
+
+evo_ape kitti  /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/slam_output/gt/CamTraj/Kitti/dataset/poses/00.txt /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/traj_kitti00_imu_10.txt -va  --plot_mode xz --save_plot lviorf_kitti00_ape_imu_10.png --align --correct_scale
+
+evo_ape kitti  /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/slam_output/gt/CamTraj/Kitti/dataset/poses/00.txt /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/traj_kitti00_lidar.txt -va  --plot_mode xz --save_plot lviorf_kitti00_ape_lidar.png --align --correct_scale
+    #    max      339.744640
+    #   mean      169.763138
+    # median      172.139266
+    #    min      15.028323
+    #   rmse      189.177670
+    #    sse      162478385.963584
+    #    std      83.478546
+
+evo_ape kitti  /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/slam_output/gt/CamTraj/Kitti/dataset/poses/00.txt /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/traj_kitti00_lidar_000.txt -va  --plot_mode xz --save_plot lviorf_kitti00_ape_lidar_8hz.png --align --correct_scale
+# 8hz
+    #    max      254.276209
+    #   mean      69.599800
+    # median      56.906273
+    #    min      3.150012
+    #   rmse      85.455099
+    #    sse      33153685.896017
+    #    std      49.582677
+evo_rpe kitti  /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/slam_output/gt/CamTraj/Kitti/dataset/poses/00.txt /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/traj_kitti00_lidar_000.txt -va  --plot_mode xz --save_plot lviorf_kitti00_rpe_lidar_8hz.png --align --correct_scale
+# 8hz
+    #    max      8.582864
+    #   mean      1.103325
+    # median      1.110685
+    #    min      0.238959
+    #   rmse      1.137365
+    #    sse      5871.651518
+    #    std      0.276177
+
+evo_ape kitti  /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/slam_output/gt/CamTraj/Kitti/dataset/poses/00.txt /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/traj_kitti00_lidar_0000.txt -va  --plot_mode xz --save_plot lviorf_kitti00_ape_lidar_3hz.png --align --correct_scale
+# 3hz
+    #    max      342.945179
+    #   mean      167.233369
+    # median      168.558990
+    #    min      17.253980
+    #   rmse      189.193086
+    #    sse      162504868.530287
+    #    std      88.470472
+
+
+evo_rpe kitti  /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/slam_output/gt/CamTraj/Kitti/dataset/poses/00.txt /Users/yuhsuanli/Desktop/projects/slam_project/evaluation/traj_kitti00_lidar_0000.txt -va  --plot_mode xz --save_plot lviorf_kitti00_rpe_lidar_3hz.png --align --correct_scale
+# 3hz
+    #    max      3.694605
+    #   mean      0.956963
+    # median      0.962667
+    #    min      0.068026
+    #   rmse      1.006977
+    #    sse      4602.559966
+    #    std      0.313408
