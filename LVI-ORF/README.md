@@ -1,7 +1,6 @@
 
 # LVI-ORF
-
-This project adapts and extends the LVI-ORF framework for experiments with noise injection on the KITTI dataset.
+This project is based on [LVI-ORF](https://github.com/YJZLuckyBoy/lviorf). It adapts and extends the original framework to support experiments involving noise injection on the KITTI dataset.
 
 ---
 
