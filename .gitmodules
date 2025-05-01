@@ -1,3 +1,9 @@
 [submodule "PIN_SLAM"]
 	path = PIN_SLAM
 	url = git@github.com:PRBonn/PIN_SLAM.git
+[submodule "MASt3R-SLAM"]
+	path = MASt3R-SLAM
+	url = https://github.com/GohYuJin/MASt3R-SLAM.git
+[submodule "ORB_SLAM3"]
+	path = ORB_SLAM3
+	url = https://github.com/GohYuJin/ORB_SLAM3.git
